@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "turbo": "^1.10.14"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "node app/api/dist/main"
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "dependencies": {
+    "@nestjs/serve-static": "^4.0.0"
+  }
+}
